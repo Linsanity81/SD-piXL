@@ -82,8 +82,8 @@ diffusion:
 controlnet:
   use_controlnet: true
   models_id: 
-    - canny_mid #[canny_small, canny_mid, canny]
-    - depth_mid #[depth_small, depth_mid, depth]
+    - canny_small #[canny_small, canny_mid, canny]
+    - depth_small #[depth_small, depth_mid, depth]
   controlnet_conditioning_scale: 
     - 0.15
     - 0.15
