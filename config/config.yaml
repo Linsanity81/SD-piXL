@@ -66,7 +66,7 @@ training:
 
 # diffusion
 diffusion:
-  model_id: sdxl # [sdxl, ssd1b]. ssd1b is a smaller model that is faster to use, but less powerful.
+  model_id: ssd1b # [sdxl, ssd1b]. ssd1b is a smaller model that is faster to use, but less powerful.
   vae_id: taesdxl # taesdxl, vae-16-fix."vae-16-fix" does not fit in 24GB of VRAM. 
   lora_path: ~ # Exemples: [~, "goofyai/3d_render_style_xl", "nerijs/pixel-art-xl", "ostris/embroidery_style_lora_sdxl", "TheLastBen/Papercut_SDXL", "ostris/watercolor_style_lora_sdxl"]
   lora_scale: 1.0 # Typically between 0.5 and 1.0
